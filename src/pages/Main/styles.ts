@@ -6,6 +6,9 @@ export const Header = styled.div`
     justify-content: space-between;
 
     display: flex;
+    margin-top: 48px;
+    margin-left: 150px;
+    margin-right: 150px;
 `;
 
 export const HeaderText = styled.h1`
@@ -23,4 +26,13 @@ export const ButtonBag = styled(Button)`
     border-radius: 100%; 
     color: #fff;
     border: none;
+`;
+
+export const ButtonSignIn = styled(Button)`
+
+`;
+
+export const HeaderButtons = styled.div`
+    align-itens: center;
+    justify-content: center;
 `;

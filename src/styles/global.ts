@@ -7,9 +7,4 @@ export default createGlobalStyle`
     background: #F5F6F9 0% 0% no-repeat padding-box;
     opacity: 1;
   }
-
-  body, input, button {
-    font-family: 'Roboto Slab', serif;
-    font-size: 16px;
-  }
 `;

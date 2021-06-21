@@ -1,5 +1,7 @@
 import React from "react";
-import { ButtonBag, Header, HeaderText } from "./styles";
+import { ButtonBag, Header, HeaderText, ButtonSignIn, HeaderButtons } from "./styles";
+
+import { FaShoppingBag } from 'react-icons/fa'
 
 const Main: React.FC = () => {
 
@@ -7,9 +9,12 @@ const Main: React.FC = () => {
         <Header>
             <HeaderText>Tog.design</HeaderText>
 
-            <ButtonBag>
-                Teste
-            </ButtonBag>
+            <HeaderButtons>
+                <ButtonBag icon={FaShoppingBag} />
+                <ButtonSignIn>
+                    Sign In
+                </ButtonSignIn>
+            </HeaderButtons>
         </Header>
     );
 }
