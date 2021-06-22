@@ -18,6 +18,7 @@ export const HeaderText = styled.h1`
 export const ButtonBag = styled(Button)`
     top: 27px;
     left: 1106px;
+    margin-right: 48px;
     width: 48px;
     height: 48px;
     background: #A9A7B1 0% 0% no-repeat padding-box;
@@ -29,10 +30,20 @@ export const ButtonBag = styled(Button)`
 `;
 
 export const ButtonSignIn = styled(Button)`
+    border: none;
+    background: #6356A5 0% 0% no-repeat padding-box;
+    color: #fff;
 
+    border-radius: 12px;
+    opacity: 1; 
+
+    top: 32px;
+    left: 1178px;
+    width: 86px;
+    height: 38px;
 `;
 
-export const HeaderButtons = styled.div`
-    align-itens: center;
+export const HeaderContent = styled.div`
+    align-items: center;
     justify-content: center;
 `;
